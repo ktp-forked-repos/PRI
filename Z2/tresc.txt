@@ -1,0 +1,20 @@
+Zadanie 2.3
+Nale¿y stworzyæ spis dzieci niewielkiego przedszkola. Program powinien
+umo¿liwiaæ wczytanie
+do N < 20 pozycji zawieraj¹cych:
+- nazwisko i imiê
+- grupa (np. poziomki, skrzaty itp.)
+- rok urodzenia
+- zajêcia dodatkowe (nieobowi¹zkowe): rytmika, angielski, korektywa
+
+Listê nale¿y wyœwietliæ:
+a)      ca³oœæ alfabetycznie wg grup, a w ramach ka¿dej grupy wg
+alfabetycznej kolejnoœci nazwisk i imion,
+b)      wybrane zajêcia dodatkowe,  np. tylko rytmika, albo dzieci nie
+uczêszczaj¹ce na ¿adne zajêcia. W ramach ka¿dego zajêcia pozycje
+uporz¹dkowane wg alfabetycznej kolejnoœci nazwisk i imion.
+
+Wyœwietlone pozycje powinny zawieraæ pe³n¹ informacjê, tzn. imiê, nazwisko,
+grupa, rok ur., zajêcia dodatkowe.  Program powinien umo¿liwiaæ dopisywanie
+pozycji po wyœwietleniu listy. Powinien reagowaæ i byæ odporny na
+nielogiczne wprowadzanie danych (np. rok urodzenia: ABCD).

@@ -1,0 +1,25 @@
+ZADANIE 4.3
+
+Program Spis dzieci przedszkola wykonany w ramach zadania 3 nale¿y
+rozszerzyæ o mo¿liwoœæ zapisywania/odczytywania danych do/z plików. Program
+powinien obs³ugiwaæ dwa rodzaje plików:
+c)      plik tekstowy, umo¿liwiaj¹cy odczytywanie i zapisywanie oraz
+modyfikacjê danych (tak¿e struktury drzewa) przy u¿yciu dowolnego edytora
+tekstowego (rozszerzenie *.txt)
+d)      plik binarny zabezpieczony has³em, sposób zapisu danych
+uniemo¿liwiaj¹cy "rozpoznanie" ich pod edytorem tekstowym (rozszerzenie
+*.pdz).
+Zapis i odczyt danych do/z pliku realizowany poprzez wydawanie odpowiednich
+komend z parametrami. Rodzaj i sposób odczytu/zapisu program rozpoznaje po
+rozszerzeniu w nazwie pliku. Wszelkie inne wymagania dotycz¹ce programu
+takie same jak w zadaniu 3.
+
+Przyk³ady
+e)      zapis do pliku tekstowego:
+save plik.txt
+f)      odczyt z pliku tekstowego
+load plik.txt
+g)      zapis do pliku binarnego
+save plik.pdz has³o
+h)      odczyt z pliku binarnego
+load plik.pdz has³o

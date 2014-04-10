@@ -1,0 +1,24 @@
+Zadanie 3.3
+
+Napisaæ komputerowy spis dzieci przedszkola (lub odpowiednio rozbudowaæ
+poprzedni program (zad. 2.3)), zawieraj¹cy dowolnie wiele pozycji,
+zorganizowanych w drzewie zajêæ dodatkowych (np. angielski, p³ywanie,
+rysunek, itp.). Ka¿da grupa (zajêcie dod.) mo¿e zawieraæ w sobie podrzêdne
+grupy, przy czym nazwy grup równorzêdnych w danym wêŸle drzewa nie mog¹ siê
+powtarzaæ (w innym przypadku mo¿liwe jest powtarzanie nazw). W ramach ka¿dej
+grupy pozycje opisywane s¹ jak w zad 2.3, tzn.: nazwisko, imiê, grupa
+przedszkolna, rok urodzenia. Program powinien umo¿liwiaæ:
+-    wpisywanie nowych i modyfikacjê ju¿ istniej¹cych  pozycji,
+-       tworzenie  nowej grupy zajêæ dodatkowych w dowolnym miejscu drzewa,
+-       usuniêcie istniej¹cej grupy z drzewa,
+-       zmianê nazwy dowolnej grupy zajêæ ,
+-       przenoszenie fragmentu drzewa,
+-       wyszukiwanie i wyœwietlanie listy dzieci wg zadanych parametrów,
+takich jak w zad. 2.3 (np.: wyœwietl wszystkich z grupy przedszkolnej
+"skrzaty", albo: znajdŸ dzieci urodzone w 2002 roku) ,
+-       wyœwietlanie ca³ego drzewa,
+-       wyœwietlanie zawartoœci dowolnie wybranego zajêcia ³¹cznie z innymi
+zajêciami w nim zawartymi (pozycje w kolejnoœci alfabetycznej nazwisk).
+
+Program powinien byæ odporny i reagowaæ na nielogiczne wprowadzanie danych
+(np. rok urodzenia: ABCD).
